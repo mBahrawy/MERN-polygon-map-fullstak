@@ -4,6 +4,7 @@ import App from './App'
 import "@/style.scss";
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'mapbox-gl/dist/mapbox-gl.css';
+import 'react-toastify/dist/ReactToastify.css';
 
 import AppReduxProvider from '@/componenets/AppReduxProvider/AppReduxProvider.component';
 
