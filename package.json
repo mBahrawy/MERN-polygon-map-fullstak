@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "frontend:install": "cd frontend && npm install -f",
+    "frontend:start": "cd frontend && npm run start",
+    "frontend:build": "cd frontend && npm run build",
+    "frontend:lint": "cd frontend && npm run lint",
+    "api:install": "cd backend && npm install",
+    "api:start": "cd backend && npm run start",
+    "api:build": "cd backend && npm run build",
+    "api:lint": "cd backend && npm run lint"
+  }
+}
