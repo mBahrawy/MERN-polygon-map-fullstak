@@ -10,7 +10,7 @@ Built Typscript, Vite JS for the forntend, and Nodejs, Express, Typscript for th
 
 ## For starting the project in development:
 - Run the frontend by this command: `frontend:start` (Development version on default port is 3000) 
-- Run the backend by this command: `api:start` (Development version on default port is 7000)
+- Run the backend by this command: `api:start` (Development version on default port is 9000)
 
 
 ## For building the project:

@@ -4,13 +4,13 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "set NODE_ENV=development&& nodemon --watch ./src/**/*.ts --exec ts-node ./src/server.ts",
-    "start:build": "set NODE_ENV=production&& npm run build && node build/server.js",
+    "start": "nodemon --watch ./src/**/*.ts --exec ts-node ./src/server.ts",
+    "serve": "node build/server.js",
     "format": "prettier --config .prettierrc.json src/**/* --write",
     "lint": "eslint . --ext .ts",
     "lint:fix": "eslint --fix",
-    "build": "rimraf build && set NODE_ENV=production&& npx tsc",
-    "test": "npm run build && set NODE_ENV=production&& jasmine",
+    "build": "rimraf build && npx tsc",
+    "test": "npm run build && jasmine",
     "rimraf": "./node_modules/rimraf/bin.js",
     "clean": "rimraf build"
   },

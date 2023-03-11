@@ -9,10 +9,7 @@ import * as dotenv from "dotenv";
 // Defining app base folder
 global.__basedir = __dirname;
 
-// eslint-disable-next-line no-console
-console.log(`App started in ${process.env.NODE_ENV} mode`);
-
-dotenv.config({ path: `.env.${process.env.NODE_ENV}` });
+dotenv.config({ path: `.env` });
 
 const PORT = process.env.APP_BACKEND_PORT;
 
