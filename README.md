@@ -2,7 +2,7 @@
 This a project is build by ReactJS powered by DeckGL and MapBox map API.
 Built Typscript, Vite JS for the forntend, and Nodejs, Express, Typscript for the backend.
 
-## For setting up the project:
+## For setting up the project: 
 - Clone the project 
 - CD to the project directory 
 - Install the frontend type this command: `frontend:install` 
